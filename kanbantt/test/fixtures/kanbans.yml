@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_task: 1
+  id_column: 1
+  position: 1
+
+two:
+  id_task: 1
+  id_column: 1
+  position: 1

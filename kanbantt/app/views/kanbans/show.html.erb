@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Id task:</strong>
+  <%= @kanban.id_task %>
+</p>
+
+<p>
+  <strong>Id column:</strong>
+  <%= @kanban.id_column %>
+</p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @kanban.position %>
+</p>
+
+<%= link_to 'Edit', edit_kanban_path(@kanban) %> |
+<%= link_to 'Back', kanbans_path %>
